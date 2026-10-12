@@ -1,0 +1,92 @@
+body {
+    background-color: #e0f2f1;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #00cccc;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #a0eeee;
+    padding: 10px;
+    text-align: right;
+    border: 2px solid #00aaaa;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #008888;
+    font-size: 22px;
+}
+
+.header p {
+    margin: 0;
+    color: #00aaaa;
+    font-size: 12px;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: #00cccc;
+    padding: 10px;
+    border: 2px solid #008888;
+    box-sizing: border-box;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.sidebar ul {
+    padding-left: 15px;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.content {
+    float: right;
+    width: 70%;
+}
+
+.post {
+    background-color: #e0ffff;
+    border: 2px solid #00cccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.post h2 {
+    margin-top: 0;
+    color: #008888;
+    font-size: 15px;
+    background-color: #b2ffff;
+    padding: 3px;
+}
+
+.post img {
+    float: right;
+    width: 75px;
+    height: 75px;
+    margin-left: 8px;
+}
+
+.post p {
+    color: #FF0000;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0;
+}
